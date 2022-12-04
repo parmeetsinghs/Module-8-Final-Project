@@ -1,0 +1,64 @@
+meta(charset="UTF-8")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(href="https://fonts.googleapis.com/css?family=Oswald:300,400,400i,700", rel="stylesheet")
+link(rel="stylesheet", href="css/style.css")
+link(rel="shortcut icon", type="image/png", href="img/favicon.png")
+title New Loan
+//  <section class="overview"> 
+main.main
+  .card-container
+    .card
+      .card__header
+        .card__details
+          h4.card__sub-heading New Customer
+          p.card__text.
+            
+            Please enter the following Details
+            
+          .card__data
+            form(action="/signup")
+              label(for="cname") Customer Name:
+              input#cname(type="text", name="cname")
+              br
+              br
+              label(for="iname") Phone Number:
+              input#pnumber(type="number", name="iname")
+              br
+              br
+              label(for="address") Address:
+              input#address(type="text", name="address")
+              br
+              br
+              label(for="loanamt") Loan Amount:
+              input#loanamt(type="number", name="loanamt")
+              br
+              br
+              label(for="interest") Interest:
+              input#interest(type="number", name="interest")
+              br
+              br
+              label(for="loantermyears") Loan Term Years:
+              input#loantermyears(type="number", name="loantermyears")
+              br
+              br
+              label(for="loantype") Loan Type:
+              input#loantype(type="text", name="loantype")
+              br
+              br
+              label(for="description") Description:
+              input#description(type="text", name="description")
+              br
+              br
+              label(for="email") Email:
+              input#email(type="email", name="email")
+              br
+              br
+              label(for="password") Password:
+              input#password(type="password", name="password")
+              br
+              br
+              label(for="cpassword") Confirm Password:
+              input#cpassword(type="password", name="cpassword")
+              br
+              br
+              input.card__sub-heading(type="submit", value="Submit")

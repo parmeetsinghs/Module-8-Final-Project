@@ -1,0 +1,41 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='https://fonts.googleapis.com/css?family=Oswald:300,400,400i,700', rel='stylesheet')
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='shortcut icon', type='image/png', href='img/bank.png')
+    title  Get Loans
+  body
+    h1.heading-primary
+      span List of Loans
+    div
+      table.table-header
+        thead
+          tr
+            th(scope='col') Customer Name
+            th(scope='col') Phone Number
+            th(scope='col') Address
+            th(scope='col') Loan Amount
+            th(scope='col') Interest
+            th(scope='col') Loan Term Years
+            th(scope='col') Loan Type
+            th(scope='col') Description
+            th(scope='col') Created Date
+            th(scope='col') Inserted Date
+        tbody
+          each loandata in data  
+            tr.table-secondary
+              td=loandata.customerName
+              td=loandata.phoneNumber
+              td=loandata.address 
+              td=loandata.loanAmount
+              td=loandata.interest 
+              td=loandata.loanTermYears
+              td=loandata.loanType 
+              td=loandata.description
+              td=loandata.createdDate 
+              td=loandata.insertedDate
+          
+            

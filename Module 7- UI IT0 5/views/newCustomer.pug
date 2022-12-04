@@ -1,0 +1,40 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(href='https://fonts.googleapis.com/css?family=Oswald:300,400,400i,700' rel='stylesheet')
+  link(rel='stylesheet' href='css/style.css')
+  link(rel='shortcut icon' type='image/png' href='img/favicon.png')
+  title  Sign in New Customer
+// <section class="overview">
+main.main
+  .card-container
+    .card
+      .card__header
+        .card__details
+          h4.card__sub-heading New Customer 
+          p.card__text
+            | Please enter the following Details
+          .card__data
+            form(action='/signup' method='POST')
+              label(for='fname') First name:
+              input#fname(type='text' name='fname')
+              br
+              br
+              label(for='lname') Last name:
+              input#lname(type='text' name='lname')
+              br
+              br
+              label(for='email') Email:
+              input#email(type='email' name='email')
+              br
+              br
+              label(for='password') Password:
+              input#password(type='password' name='password')
+              br
+              br
+              label(for='cpassword') Confirm Password:
+              input#cpassword(type='password' name='cpassword')
+              br
+              br
+              input.card__sub-heading(type='submit' value='Submit')

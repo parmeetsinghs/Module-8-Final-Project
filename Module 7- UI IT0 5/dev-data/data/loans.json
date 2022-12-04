@@ -1,0 +1,66 @@
+[
+  {
+  "_Id" : 0,
+  "customerName" : " Parmeet ",
+  "phoneNumber": 2472930123,
+  "address":" Tempe ",
+  "loanAmount": 200,
+  "interest": 5,
+  "loanTermYears": 4,
+  "loanType": "Student Loan",
+  "description": "Educational Loan"
+
+}, 
+{
+
+"_Id": 1,
+"customerName" : " Aditi ",
+"phoneNumber": 9623123734,
+"address":" Mesa ",
+"loanAmount": 500,
+"interest": 12,
+"loanTermYears": 2,
+"loanType": "Personal Loan",
+"description": "Personal Loan"
+   
+},
+{
+
+  "_Id": 2,
+  "customerName" : " Majithi",
+  "phoneNumber": 6152839528,
+  "address":" Scottsdale ",
+  "loanAmount": 100,
+  "interest": 7,
+  "loanTermYears": 8,
+  "loanType": "Car loan",
+  "description": "Car loan"
+     
+  },
+  {
+
+    "_Id": 3,
+    "customerName" : "Teju",
+    "phoneNumber": 9812639201,
+    "address":"Phoenix",
+    "loanAmount": 1200,
+    "interest": 7,
+    "loanTermYears": 8,
+    "loanType": "Home Loan",
+    "description": "Home Loan"
+       
+    },
+    {
+
+      "_Id": 4,
+      "customerName" : "Vikas",
+      "phoneNumber": 62301739172,
+      "address":" Glendale ",
+      "loanAmount": 300,
+      "interest": 5,
+      "loanTermYears": 5,
+      "loanType": "Credit Card",
+      "description": "Credit Card"        
+  }
+]
+

@@ -1,0 +1,29 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(href='https://fonts.googleapis.com/css?family=Oswald:300,400,400i,700', rel='stylesheet')
+    link(rel='stylesheet', href='css/style.css')
+    link(rel='shortcut icon', type='image/png', href='img/bank.png')
+    title  Get Users
+  body
+    h1.heading-primary
+      span List of Users
+    div
+      table.table-header
+        thead
+          tr
+            th(scope='col') FirstName
+            th(scope='col') LastName
+            th(scope='col') email
+            
+        tbody
+          each userdata in data  
+            tr.table-secondary
+              td=userdata.FirstName
+              td=userdata.LastName
+              td=userdata.email
+             
+          
+            

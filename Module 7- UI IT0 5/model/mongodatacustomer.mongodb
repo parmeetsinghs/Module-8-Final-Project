@@ -1,0 +1,36 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('LOANS');
+
+// The drop() command destroys all data from a collection.
+// Make sure you run it against the correct database and collection.
+db.Customer.drop();
+
+// Insert a few documents into the sales collection.
+db.Customer.insertMany([
+  { '_id': 1, 'name': 'Shraddha',
+    'first name':'Shraddha',
+    'middle name': 'S',
+    'last name': 'Kumbharkar',
+    'date of birth': '12/25/1998',
+    'gender': 'Female',
+    'createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),
+    'modifiedDate': new Date('2022-08-10 T07:00:00.000+00:00'),
+    'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 1, 'name': 'Milind',   'first name':'Milan',  'middle name': 'P','last name': 'Soman',   'date of birth': '2/2/2000','gender': 'Male','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 2, 'name': 'Shraddha', 'first name':'Ashil',  'middle name': 'D','last name': 'Kakade',  'date of birth': '6/7/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 3, 'name': 'Alifiyah', 'first name':'Prit',    'middle name': 'H','last name': 'Shahid',  'date of birth': '1/17/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 4, 'name': 'Ashwini',  'first name':'Ropin',  'middle name': 'M','last name': 'Dhavare', 'date of birth': '12/6/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 5, 'name': 'Vaishnavi','first name':'Bapu',   'middle name': 'B','last name': 'Kolte',   'date of birth': '7/30/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 6, 'name': 'Prithu',   'first name':'Prithu', 'middle name': 'B','last name': 'Patel',   'date of birth': '9/12/2000','gender': 'Male','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 7, 'name': 'Suvarna',  'first name':'Meet',   'middle name': 'V','last name': 'Rote',    'date of birth': '3/3/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 8, 'name': 'Desh',     'first name':'Karina', 'middle name': 'K','last name': 'Patel',   'date of birth': '2/4/2000','gender': 'Male','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 9, 'name': 'Meet',     'first name':'Meet',   'middle name': 'V','last name': 'Sharma',  'date of birth': '3/3/2000','gender': 'Male','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+  { '_id': 10,'name': 'Ketaki',   'first name':'Karina', 'middle name': 'K','last name': 'Raj',     'date of birth': '2/4/2000','gender': 'Female','createdDate': new Date ('2022-08-10 T07:00:00.000+00:00'),'modifiedDate': new Date('2022-08-10T07:00:00.000+00:00'),'isDeleted': new Date ('2022-08-10 T07:00:00.000+00:00') },
+]);
+
+
